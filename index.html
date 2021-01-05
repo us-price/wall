@@ -14,7 +14,15 @@
 	<link rel="stylesheet" href="css/framework7.bundle.min.css">
 	<link rel="stylesheet" href="css/ionicons.min.css">
 	<link rel="stylesheet" href="css/style.css">
+<style>
 
+.page {
+    background: #fff;
+}
+
+
+
+</style>
 </head>
 <body>
 	
@@ -60,11 +68,13 @@
 								</div>
 								<div class="col-30">
 									<div class="profile-avatar">
-										<a href="/sign-in/">
+											<a  onClick="parent.location='index-dark.html'">
 											<div class="image">
-												<span class="notification-point"></span>
-												<img src="images/profile.jpg" alt="">
+												
+												<img src="images/profile-dark.png" alt="">
+                                                                                      
 											</div>
+  <h6>DARK</h6>
 										</a>
 									</div>
 								</div>
@@ -1099,6 +1109,12 @@
 	</div>
 
 	<!-- script -->
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 	<script src="js/framework7.bundle.min.js"></script>
 	<script src="js/routes.js"></script>
 	<script src="js/app.js"></script>
