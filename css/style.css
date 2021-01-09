@@ -88,6 +88,8 @@
 - account settings and change password
 
 */
+/*--------------loader------------*/
+
 
 /* ========== GENERAL ========== */
 
@@ -99,7 +101,10 @@ body {
     font-weight: 400;
     background: #fff;
     line-height: 22px;
+
 }
+
+
 
 h1,
 h2,
@@ -167,9 +172,7 @@ img {
     display: block;
 }
 
-.page {
-    background: #fff;
-}
+
 
 @-moz-document url-prefix() {
     .page-content {
@@ -200,12 +203,12 @@ img {
 }
 
 .ios .toolbar.toolbar-bottom .toolbar-inner .tab-link.tab-link-active {
-    color: #ff5b44;
+    color: #ff487e;
 }
 
 .ios .toolbar.toolbar-bottom .toolbar-inner .tab-link .notification-point {
     display: inline-block;
-    background: #ff5b44;
+    background: #ff487e;
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -248,7 +251,7 @@ img {
 }
 
 .swiper-container.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: #ff5b44;
+    background: #ff487e;
 }
 
 /* searchbar */
@@ -287,7 +290,7 @@ img {
 }
 
 .navbar .link {
-    color: #ff5b44;
+    color: #ff487e;
 }
 
 .navbar .link i {
@@ -323,7 +326,7 @@ img {
     font-size: 20px;
     width: 20px;
     text-align: center;
-    color: #ff5b44;
+    color: #ff487e;
 }
 
 .list .item-inner::before {
@@ -562,7 +565,7 @@ form.list .item-input-wrap textarea {
 
 .page-content a.nav-back i {
     color: #fff;
-    background: #ff5b44;
+    background: #ff487e;
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -722,7 +725,7 @@ form.list .item-input-wrap textarea {
 
 /* button default */
 .button {
-    background: #ff5b44;
+    background: #ff487e;
     border-radius: 8px;
     padding: 0 20px;
     height: 45px;
@@ -735,21 +738,21 @@ form.list .item-input-wrap textarea {
 }
 
 .button:focus {
-    background: #ff5b44;
+    background: #ff487e;
     color: #fff;
     outline: 0;
 }
 
 .btn-secondary {
     background: transparent;
-    border: 1px solid #ff5b44;
-    color: #ff5b44;
+    border: 1px solid #ff487e;
+    color: #ff487e;
 }
 
 .btn-secondary:focus {
     background: transparent;
-    border: 1px solid #ff5b44;
-    color: #ff5b44;
+    border: 1px solid #ff487e;
+    color: #ff487e;
     outline: 0;
 }
 
@@ -791,7 +794,7 @@ form.list .item-input-wrap textarea {
 
 .header-title .profile-avatar .image .notification-point {
     display: inline-block;
-    background: #ff5b44;
+    background: #ff487e;
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -920,7 +923,7 @@ form.list .item-input-wrap textarea {
 }
 
 .rate-destination ul li i {
-    color: #ff5b44;
+    color: #ff487e;
     font-size: 16px;
 }
 
@@ -985,7 +988,7 @@ form.list .item-input-wrap textarea {
 }
 
 .recommended-tour .wrap-image .who-likes i {
-    color: #ff5b44;
+    color: #ff487e;
     margin-right: 5px;
 }
 
@@ -1059,7 +1062,7 @@ form.list .item-input-wrap textarea {
 }
 
 .favorite-category .swiper-wrapper .swiper-slide .content.content-active {
-    background: #ff5b44;
+    background: #ff487e;
     color: #fff;
 }
 
@@ -1085,7 +1088,7 @@ form.list .item-input-wrap textarea {
 }
 
 .favorite-item .content .image .favorite-icon i {
-    color: #ff5b44;
+    color: #ff487e;
     font-size: 24px;
     text-shadow: 0 0px 12px rgba(0, 0, 0, 0.39);
 }
@@ -1105,7 +1108,7 @@ form.list .item-input-wrap textarea {
 
 .favorite-item .content .text .price-booking h5 {
     font-size: 16px;
-    color: #ff5b44;
+    color: #ff487e;
 }
 
 /* ========== END TAB FAVORITE ========== */
@@ -1201,7 +1204,7 @@ form.list .item-input-wrap textarea {
 }
 
 .recommended-hotel .swiper-slide .text .price-booking h5 {
-    color: #ff5b44;
+    color: #ff487e;
     font-size: 18px;
 }
 
@@ -1219,7 +1222,7 @@ form.list .item-input-wrap textarea {
     width: 40px;
     height: 40px;
     line-height: 40px;
-    background: #ff5b44;
+    background: #ff487e;
     color: #fff;
     border-radius: 50%;
     text-align: center;
@@ -1234,7 +1237,7 @@ form.list .item-input-wrap textarea {
 
 .notifi .content .text .notification-point {
     display: inline-block;
-    background: #ff5b44;
+    background: #ff487e;
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -1315,7 +1318,7 @@ form.list .item-input-wrap textarea {
     width: 35px;
     height: 35px;
     line-height: 35px;
-    background: #ff5b44;
+    background: #ff487e;
     color: #fff;
     font-size: 20px;
     text-align: center;
@@ -1417,7 +1420,7 @@ form.list .item-input-wrap textarea {
 }
 
 .travel-details .image-header .favorite-icon i {
-    color: #ff5b44;
+    color: #ff487e;
     font-size: 24px;
     text-shadow: 0 0px 12px rgba(0, 0, 0, 0.39);
 }
@@ -1444,7 +1447,7 @@ form.list .item-input-wrap textarea {
 }
 
 .travel-details .details-title .detail-more ul li .price-booking h5 {
-    color: #ff5b44;
+    color: #ff487e;
 }
 
 .travel-details .details-title .detail-more ul li:last-child {
@@ -1452,7 +1455,7 @@ form.list .item-input-wrap textarea {
 }
 
 .travel-details .details-title .detail-more ul li:last-child i {
-    color: #ff5b44;
+    color: #ff487e;
     margin-right: 5px;
 }
 
@@ -1464,7 +1467,7 @@ form.list .item-input-wrap textarea {
 
 .travel-details .details-title .rate-destination ul li:last-child a {
     margin-left: 10px;
-    color: #ff5b44;
+    color: #ff487e;
     text-decoration: underline;
 }
 
@@ -1535,7 +1538,7 @@ form.list .item-input-wrap textarea {
 }
 
 .all-reviews .user-rate-content .rate-destination ul li i {
-    color: #ff5b44;
+    color: #ff487e;
     font-size: 14px;
 }
 
@@ -1555,7 +1558,7 @@ form.list .item-input-wrap textarea {
     left: 0;
     width: 90%;
     height: 100%;
-    background: #ff5b44;
+    background: #ff487e;
     border-radius: 20px;
 }
 
@@ -1569,7 +1572,7 @@ form.list .item-input-wrap textarea {
 }
 
 .all-reviews .tap-star-rate ul li i {
-    color: #ff5b44;
+    color: #ff487e;
 }
 
 .all-reviews .tap-star-rate ul li:first-child {
@@ -1632,7 +1635,7 @@ form.list .item-input-wrap textarea {
 }
 
 .country-details .desc-details ul li .price-booking h5 {
-    color: #ff5b44;
+    color: #ff487e;
 }
 
 .country-details .desc-details ul li:last-child {
@@ -1640,7 +1643,7 @@ form.list .item-input-wrap textarea {
 }
 
 .country-details .desc-details ul li:last-child i {
-    color: #ff5b44;
+    color: #ff487e;
     margin-right: 5px;
 }
 
@@ -1664,7 +1667,7 @@ form.list .item-input-wrap textarea {
 
 .explore-category-place .wrap-image .caption .price-booking h5 {
     font-size: 16px;
-    color: #ff5b44;
+    color: #ff487e;
 }
 
 .explore-category-place .wrap-image .rate-destination {
@@ -1699,16 +1702,16 @@ form.list .item-input-wrap textarea {
 
 .explore-category-tour .wrap-image .caption .location i {
     margin-right: 5px;
-    color: #ff5b44;
+    color: #ff487e;
 }
 
 /* language */
 .ios .radio input[type="radio"]:checked ~ .icon-radio {
-    border-color: #ff5b44;
+    border-color: #ff487e;
 }
 
 .ios .radio input[type="radio"]:checked ~ .icon-radio::after {
-    color: #ff5b44;
+    color: #ff487e;
     width: 18px;
     transition: all .2s ease-in-out;
 }
@@ -1735,7 +1738,7 @@ form.list .item-input-wrap textarea {
 
 .privacy .desc-list .content .icons i {
     margin-right: 15px;
-    color: #ff5b44;
+    color: #ff487e;
     font-size: 20px;
 }
 
@@ -1774,7 +1777,7 @@ form.list .item-input-wrap textarea {
 }
 
 .help-details .help-action a {
-    background: #ff5b44;
+    background: #ff487e;
     color: #fff;
     border-radius: 20px;
     height: 30px;
@@ -1803,7 +1806,7 @@ form.list .item-input-wrap textarea {
 }
 
 .about-us .about-feature .content i {
-    background: #ff5b44;
+    background: #ff487e;
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -1868,7 +1871,7 @@ form.list .item-input-wrap textarea {
     margin-left: 10px;
     font-size: 15px;
     font-weight: 500;
-    color: #ff5b44;
+    color: #ff487e;
 }
 
 /* forgot password */
@@ -1896,7 +1899,7 @@ form.list .item-input-wrap textarea {
     margin-left: 10px;
     font-size: 15px;
     font-weight: 500;
-    color: #ff5b44;
+    color: #ff487e;
 }
 
 .forgot-password .button-default .button {
