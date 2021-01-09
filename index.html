@@ -40,15 +40,23 @@
   z-index: 100;
 }
 
+label {
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
 </style>
 
 
 </head>
 <body >
 
-	<div id="loading">
-  <img id="loading-image" src="spin.gif" alt="Loading..." />
-</div>
+
 	<div id="app">
 
 		<div class="view view-main view-init ios-edges" data-url="/">
@@ -58,10 +66,12 @@
 					<div class="toolbar-inner">
 						<a href="#tab-home" class="tab-link tab-link-active">
 							<i class="icon ion-ios-home"></i>
+<p>Home</p>
 						</a>
 					
 	                                              <a href="#tab-explore" class="tab-link">
-                                        <i class="icon ion-ios-pulse"></i>
+                                        <i class="icon ion-ios-star"></i>
+<p>Best</p>
 						</a>
 						<a href="#tab-favorite" class="tab-link">
 							<i class="icon ion-ios-bookmark"></i>
@@ -69,9 +79,11 @@
 						<a href="#tab-notification" class="tab-link">
 							<span class="notification-point"></span>
 							<i class="icon ion-ios-notifications"></i>
+<p>alerts</p>
 						</a>
 						<a href="#tab-profile" class="tab-link">
-							<i class="icon ion-ios-person"></i>
+							<i class="icon ion-ios-information-circle"></i>
+<p>info</p>
 						</a>
 					</div>
 				</div>
@@ -87,19 +99,19 @@
 							<div class="row">
 								<div class="col-70">
 									<div class="title-left">
-										<span class="title-name"></span>
-										<h2>Games Wallpaper</h2>
+										<span class="title-name">Wallpapers for</span>
+										<h2>Games</h2>
 									</div>
 								</div>
 								<div class="col-30">
 									<div class="profile-avatar">
-											<a  onClick="parent.location='index-dark.html'">
+											
 											<div class="image">
 												
-												<img src="images/profile-dark.png" alt="">
+												<img src="" alt="">
                                                                                       
 											</div>
-  <h6>DARK</h6>
+  
 										</a>
 									</div>
 								</div>
@@ -114,56 +126,55 @@
 							<div class="swiper-container swiper-container-offset swiper-init" data-space-between="20" data-slides-per-view="auto">
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<a  onClick="parent.location='gta.html'">
-											<div class="half-mask"></div>
-											<img src="images/games/gta/3.jpeg" alt="">
+										
+                                                                   	<a  onClick="parent.location='fortnite.html'">
+										
+											<img src="images/games/fortnite/main.jpeg"  alt="">
 											<div class="caption">
-												<h4>GTA</h4>
-												<span>99+ wallpapers</span>
+												<h4>FORTNITE</h4>
+												<span>click for more</span>
 											</div>
 										</a>
 									</div>
 									<div class="swiper-slide">
 								<a  onClick="parent.location='pubg.html'">
 											<div class="half-mask"></div>
-											<div class="half-mask"></div>
+											
 											<img src="images/games/pubg/main.jpeg" alt="">
 											<div class="caption">
 												<h4>PUBG</h4>
-												<span>99+ wallpapers</span>
+												<span>click for more</span>
 											</div>
 										</a>
 									</div>
 									<div class="swiper-slide">
-										<a  onClick="parent.location='fortnite.html'">
-											<div class="half-mask"></div>
-											<div class="half-mask"></div>
-											<img src="images/games/fortnite/main.jpeg" alt="">
+										<a  onClick="parent.location='gta.html'">
+										
+											<img src="images/games/gta/3.jpeg" alt="">
 											<div class="caption">
-												<h4>FORTNITE</h4>
-												<span>99+ wallpapers</span>
+												<h4>GTA</h4>
+                                                                                              <span>click for more</span>
+												
 											</div>
 										</a>
 									</div>
 									<div class="swiper-slide">
-											<a  onClick="parent.location='sasin.html'">
-											<div class="half-mask"></div>
-											<div class="half-mask"></div>
-											<img src="images/games/warzone/main.jpeg" alt="">
+											<a  onClick="parent.location='sin.html'">
+											
+											<img src="images/games/sin/main.jpeg" alt="">
 											<div class="caption">
-												<h4>WARZONE</h4>
-												<span>99+ wallpapers</span>
+												<h4>ASSASSIN'S</h4>
+												<span>click for more</span>
 											</div>
 										</a>
 									</div>
 	<div class="swiper-slide">
 											<a  onClick="parent.location='all.html'">
-											<div class="half-mask"></div>
-											<div class="half-mask"></div>
-											<img src="images/games/more.jpeg" alt="">
+											
+											<img src="images/games/cs/main.jpeg" alt="">
 											<div class="caption">
-												<h4>ALL GAMES</h4>
-												<span>999+ wallpapers</span>
+												<h4>CS-GO</h4>
+												<span>click for more</span>
 											</div>
 										</a>
 									</div>
@@ -221,7 +232,7 @@
 						<div class="popular-destination">
 							<div class="block-title">
 								<span class="overline-title">TODAY'S</span>
-								<h3>Best Wallpaper</h3>
+								<h3>New Wallpaper</h3>
 							</div>
 							<div class="block">
 								<div class="swiper-container swiper-init" data-pagination='{"el": ".swiper-pagination"}' data-space-between="20" data-slides-per-view="auto">
@@ -463,235 +474,254 @@
 					<div id="tab-favorite" class="tab tab-favorite">
 						<!-- ========== TAB FAVORITE ========== -->
 
-						<div class="block-title">
-							<span class="overline-title">FAVORITE</span>
-							<h3>That you save</h3>
-						</div>
+  
 
-						<div class="favorite-category">
-							<div class="swiper-container swiper-container-offset swiper-init" data-space-between="20" data-slides-per-view="auto">
-								<div class="swiper-wrapper">
-									<div class="swiper-slide">
-										<div class="content content-active">
-											<span>Tour</span>
-										</div>
-									</div>
-									<div class="swiper-slide">
-										<div class="content">
-											<span>Destination</span>
-										</div>
-									</div>
-									<div class="swiper-slide">
-										<div class="content">
-											<span>Hotel</span>
-										</div>
-									</div>
-									<div class="swiper-slide">
-										<div class="content">
-											<span>Activities</span>
-										</div>
-									</div>
-									<div class="swiper-slide">
-										<div class="content">
-											<span>Restaurant</span>
-										</div>
-									</div>
-									<div class="swiper-slide">
-										<div class="content">
-											<span>Lodging</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                           <img src="images/com.png" width="100%">
 
-						<div class="favorite-item">
-							<div class="block">
-								<div class="content">
-									<div class="image">
-										<img src="images/favorite1.jpg" alt="">
-										<div class="favorite-icon">
-											<i class="icon ion-ios-bookmark"></i>
-										</div>
-									</div>
-									<div class="text">
-										<a href="/travel-details/"><h4>Highest Mountain in the World</h4></a>
-										<p class="location">
-											<i class="icon ion-ios-pin"></i>
-											Privince No. 1, Nepal
-										</p>
-										<div class="price-booking">
-											<h5>$959 <span>/30 Days</span></h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- divider space -->
-								<div class="divider-space-content"></div>
-								<!-- end divider space -->
-
-								<div class="content">
-									<div class="image">
-										<img src="images/favorite2.jpg" alt="">
-										<div class="favorite-icon">
-											<i class="icon ion-ios-bookmark"></i>
-										</div>
-									</div>
-									<div class="text">
-										<a href="/travel-details/"><h4>Middle of a Beautiful Lake Tour</h4></a>
-										<p class="location">
-											<i class="icon ion-ios-pin"></i>
-											Privince No. 1, Nepal
-										</p>
-										<div class="price-booking">
-											<h5>$959 <span>/30 Days</span></h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- divider space -->
-								<div class="divider-space-content"></div>
-								<!-- end divider space -->
-
-								<div class="content">
-									<div class="image">
-										<img src="images/favorite3.jpg" alt="">
-										<div class="favorite-icon">
-											<i class="icon ion-ios-bookmark"></i>
-										</div>
-									</div>
-									<div class="text">
-										<a href="/travel-details/"><h4>Charming Underwater Park</h4></a>
-										<p class="location">
-											<i class="icon ion-ios-pin"></i>
-											Privince No. 1, Nepal
-										</p>
-										<div class="price-booking">
-											<h5>$959 <span>/30 Days</span></h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- divider space -->
-								<div class="divider-space-content"></div>
-								<!-- end divider space -->
-
-								<div class="content">
-									<div class="image">
-										<img src="images/favorite4.jpg" alt="">
-										<div class="favorite-icon">
-											<i class="icon ion-ios-bookmark"></i>
-										</div>
-									</div>
-									<div class="text">
-										<a href="/travel-details/"><h4>Charming Sunset Dots</h4></a>
-										<p class="location">
-											<i class="icon ion-ios-pin"></i>
-											Privince No. 1, Nepal
-										</p>
-										<div class="price-booking">
-											<h5>$959 <span>/30 Days</span></h5>
-										</div>
-									</div>
-								</div>
-
-							</div>
-						</div>
 						<!-- ========== END TAB FAVORITE ========== -->
 					</div>
 
 					<div id="tab-explore" class="tab tab-explore">
 						<!-- ========== TAB EXPLORE ========== -->
 
-						<div class="explore-header-slide">
+							<div class="country-category">
 							<div class="block-title">
-								<span class="overline-title">EXPLORE</span>
-								<h3>Explore the world</h3>
+	<h3>SPACE</h3>
 							</div>
-
 							<div class="swiper-container swiper-container-offset swiper-init" data-space-between="20" data-slides-per-view="auto">
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<div class="half-mask half-mask-v"></div>
-										<img src="images/mountain.jpg" alt="">
-										<div class="caption">
-											<h2>Explore Mountain</h2>
-											<p>Explore mountains together around the world</p>
-										</div>
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/space/6.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
 									</div>
 									<div class="swiper-slide">
-										<div class="half-mask half-mask-v"></div>
-										<img src="images/forest.jpg" alt="">
-										<div class="caption">
-											<h2>Explore Forest</h2>
-											<p>Explore the Forest through various recreational activities</p>
-										</div>
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/space/2.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
 									</div>
 									<div class="swiper-slide">
-										<div class="half-mask half-mask-v"></div>
-										<img src="images/beach.jpg" alt="">
-										<div class="caption">
-											<h2>Explore Beach</h2>
-											<p>The best beaches & islands to explore</p>
-										</div>
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/space/3.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/space/4.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/space/7.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/space/10.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/space/8.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/space/9.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div class="explore-too">
+							<div class="country-category">
 							<div class="block-title">
-								<h3>Explore Too</h3>
+	<h3>BLACK</h3>
 							</div>
 							<div class="swiper-container swiper-container-offset swiper-init" data-space-between="20" data-slides-per-view="auto">
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<a href="/explore-category-place/">
-											<div class="half-mask"></div>
-											<img src="images/explore-too1.jpg" alt="">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/black/1.png" alt="">
 											<div class="caption">
-												<h4>Hotels</h4>
-												<span>98 Hotels</span>
+												
 											</div>
 										</a>
 									</div>
 									<div class="swiper-slide">
-										<a href="/explore-category-place/">
-											<div class="half-mask"></div>
-											<img src="images/explore-too2.jpg" alt="">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/black/1.jpeg" alt="">
 											<div class="caption">
-												<h4>Restaurants</h4>
-												<span>210 Restaurants</span>
+												
 											</div>
 										</a>
 									</div>
 									<div class="swiper-slide">
-										<a href="/explore-category-place/">
-											<div class="half-mask"></div>
-											<img src="images/explore-too3.jpg" alt="">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/black/3.jpeg" alt="">
 											<div class="caption">
-												<h4>Tours</h4>
-												<span>1040 Tours</span>
+												
 											</div>
 										</a>
 									</div>
 									<div class="swiper-slide">
-										<a href="/explore-category-place/">
-											<div class="half-mask"></div>
-											<img src="images/explore-too4.jpg" alt="">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/black/4.jpeg" alt="">
 											<div class="caption">
-												<h4>Lodging</h4>
-												<span>140 Lodging</span>
+												
 											</div>
 										</a>
 									</div>
 									<div class="swiper-slide">
-										<a href="/explore-category-place/">
-											<div class="half-mask"></div>
-											<img src="images/explore-too5.jpg" alt="">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/black/5.jpeg" alt="">
 											<div class="caption">
-												<h4>Activities</h4>
-												<span>1400 Activities</span>
+												
+											</div>
+										</a>
+									</div>
+<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/black/6.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/black/7.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/black/8.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+<div class="country-category">
+							<div class="block-title">
+	<h3>NATURE</h3>
+							</div>
+							<div class="swiper-container swiper-container-offset swiper-init" data-space-between="20" data-slides-per-view="auto">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/nature/1.jpeg'">
+											
+											<img src="images/more/nature/1.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/nature/2.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+													<img src="images/more/nature/3.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+													<img src="images/more/nature/4.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+												<img src="images/more/nature/5.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/nature/6.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/nature/7.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/nature/8.jpeg" alt="">
+											<div class="caption">
+												
 											</div>
 										</a>
 									</div>
@@ -701,47 +731,79 @@
 
 						<div class="country-category">
 							<div class="block-title">
-								<h3>Popular Destinations</h3>
+	<h3>ANIME</h3>
 							</div>
 							<div class="swiper-container swiper-container-offset swiper-init" data-space-between="20" data-slides-per-view="auto">
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<a href="/country-details/">
-											<div class="full-mask"></div>
-											<img src="images/africa.jpg" alt="">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/anime/1.jpeg" alt="">
 											<div class="caption">
-												<h4>Africa</h4>
-												<span>98 Tours</span>
+												
 											</div>
 										</a>
 									</div>
 									<div class="swiper-slide">
-										<a href="/country-details/">
-											<div class="full-mask"></div>
-											<img src="images/australia.jpg" alt="">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/anime/2.jpeg" alt="">
 											<div class="caption">
-												<h4>Australia</h4>
-												<span>98 Tours</span>
+												
 											</div>
 										</a>
 									</div>
 									<div class="swiper-slide">
-										<a href="/country-details/">
-											<div class="full-mask"></div>
-											<img src="images/maldives.jpg" alt="">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/anime/3.jpeg" alt="">
 											<div class="caption">
-												<h4>Maldives</h4>
-												<span>98 Tours</span>
+												
 											</div>
 										</a>
 									</div>
 									<div class="swiper-slide">
-										<a href="/country-details/">
-											<div class="full-mask"></div>
-											<img src="images/japan.jpg" alt="">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/anime/4.jpeg" alt="">
 											<div class="caption">
-												<h4>Japan</h4>
-												<span>98 Tours</span>
+												
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/anime/5.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/anime/6.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/anime/7.jpeg" alt="">
+											<div class="caption">
+												
+											</div>
+										</a>
+									</div>
+<div class="swiper-slide">
+										<a onClick="parent.location='mages/more/space/1.jpeg'">
+											
+											<img src="images/more/anime/8.jpeg" alt="">
+											<div class="caption">
+												
 											</div>
 										</a>
 									</div>
@@ -749,63 +811,9 @@
 							</div>
 						</div>
 
-						<div class="banner-offer">
-							<div class="block">
-								<div class="content">
-									<img src="images/banner.png" alt="">
-								</div>
-							</div>
-						</div>
+					
 
-						<div class="recommended-hotel">
-							<div class="block-title">
-								<h3>Recommended Hotel</h3>
-							</div>
-							<div class="swiper-container swiper-container-offset swiper-init" data-space-between="20" data-slides-per-view="auto">
-								<div class="swiper-wrapper">
-									<div class="swiper-slide">
-										<img src="images/hotel-h1.jpg" alt="">
-										<div class="text">
-											<p class="location">
-												<i class="icon ion-ios-pin"></i>
-												South Africa
-											</p>
-											<h4>National Hotel of Africa</h4>
-											<div class="price-booking">
-												<h5>$95 <span>/Night</span></h5>
-											</div>
-										</div>
-									</div>
-									<div class="swiper-slide">
-										<img src="images/hotel-h2.jpg" alt="">
-										<div class="text">
-											<p class="location">
-												<i class="icon ion-ios-pin"></i>
-												Australia
-											</p>
-											<h4>Little Airport Hotel</h4>
-											<div class="price-booking">
-												<h5>$105 <span>/Night</span></h5>
-											</div>
-										</div>
-									</div>
-									<div class="swiper-slide">
-										<img src="images/hotel-h3.jpg" alt="">
-										<div class="text">
-											<p class="location">
-												<i class="icon ion-ios-pin"></i>
-												Maldivies
-											</p>
-											<h4>Panorama Hotel</h4>
-											<div class="price-booking">
-												<h5>$97 <span>/Night</span></h5>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
+						
 						<!-- ========== END TAB EXPLORE ========== -->
 					</div>
 
@@ -824,86 +832,13 @@
 									</div>
 									<div class="text">
 										<span class="notification-point"></span>
-										<h5>Special offer - Up to 75%</h5>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, libero.</p>
+										<h5>NEW WALLPAPERS</h5>
+										<p>Upgrade Your phone with the cool new wallpapers</p>
 									</div>
 								</div>
 
-								<div class="block-title no-margin-horizontal">
-									<div class="overline-title">
-										<span>TODAY</span>
 									</div>
 								</div>
-								<div class="content">
-									<div class="notifi-icon">
-										<i class="icon ion-ios-pricetags"></i>
-									</div>
-									<div class="text">
-										<span class="notification-point"></span>
-										<h5>Get flat 20% discount</h5>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, libero.</p>
-									</div>
-								</div>
-
-								<!-- divider space -->
-								<div class="divider-space-text"></div>
-								<!-- end divider space -->
-
-								<div class="content">
-									<div class="notifi-icon">
-										<i class="icon ion-ios-sunny"></i>
-									</div>
-									<div class="text">
-										<span class="notification-point"></span>
-										<h5>Special offer - Summer sale</h5>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, libero.</p>
-									</div>
-								</div>
-
-								<div class="block-title no-margin-horizontal">
-									<div class="overline-title">
-										<span>3 DAYS AGO</span>
-									</div>
-								</div>
-								<div class="content">
-									<div class="notifi-icon">
-										<i class="icon ion-ios-pricetag"></i>
-									</div>
-									<div class="text">
-										<h5>Mega travel sale</h5>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, libero.</p>
-									</div>
-								</div>
-
-								<!-- divider space -->
-								<div class="divider-space-text"></div>
-								<!-- end divider space -->
-
-								<div class="content">
-									<div class="notifi-icon">
-										<i class="icon ion-ios-bed"></i>
-									</div>
-									<div class="text">
-										<h5>Special offer - Nature hotel</h5>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, libero.</p>
-									</div>
-								</div>
-
-								<!-- divider space -->
-								<div class="divider-space-text"></div>
-								<!-- end divider space -->
-
-								<div class="content">
-									<div class="notifi-icon">
-										<i class="icon ion-ios-pin"></i>
-									</div>
-									<div class="text">
-										<h5>Africa only - Get all activities</h5>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, libero.</p>
-									</div>
-								</div>
-							</div>
-						</div>
 						<!-- ========== END TAB NOTIFICATION ========== -->
 					</div>
 
@@ -923,15 +858,7 @@
 											</a>
 										</li>
 								
-										<li>
-											<a onClick="parent.location='language.html'" class="item-link item-content">
-												<div class="item-media"><i class="icon ion-ios-globe"></i></div>
-												<div class="item-inner">
-													<div class="item-title">Language</div>
-													<div class="item-after">English</div>
-												</div>
-											</a>
-										</li>
+
 								
 									</ul>
 								</div>
